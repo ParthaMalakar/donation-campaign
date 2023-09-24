@@ -1,8 +1,11 @@
+import { Outlet } from "react-router-dom";
+import Navbar from "../Navbar/Navbar";
 
 const RootPage = () => {
     return (
         <div className="">
-            <h1 className="text-5xl">adddd</h1>
+            <Navbar></Navbar>
+            <Outlet></Outlet>
         </div>
     );
 };

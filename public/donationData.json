@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/0XRkSRz/11664174-20944739.jpg",
+        "title": "Fitness Tracker",
+        "category": "Health",
+        "category_bg_color": "#FF5733",
+        "card_bg_color": "#E5E5E5",
+        "text_button_bg_color": "#333333",
+        "description": "Track your daily fitness activities with this advanced fitness tracker.",
+        "price": 49.99
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/CHNHM5c/word-search-look-up-random-tags.jpg",
+        "title": "Online Course Subscription",
+        "category": "Education",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#E5E5E5",
+        "text_button_bg_color": "#333333",
+        "description": "Access a wide range of online courses and enhance your skills from anywhere.",
+        "price": 29.99
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/sC99J9j/young-handsome-bearded-man.jpg",
+        "title": "Men's Casual T-Shirt",
+        "category": "Clothing",
+        "category_bg_color": "#27ae60",
+        "card_bg_color": "#E5E5E5",
+        "text_button_bg_color": "#333333",
+        "description": "Stay comfortable and stylish with this classic men's t-shirt.",
+        "price": 19.99
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/1L8jDkC/top-view-batch-cooking-assortment.jpg",
+        "title": "Healthy Snack Pack",
+        "category": "Food",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#E5E5E5",
+        "text_button_bg_color": "#333333",
+        "description": "Enjoy delicious and nutritious snacks with this assorted snack pack.",
+        "price": 14.99
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/1qbzBL3/still-life-yoga-room.jpg",
+        "title": "Yoga Mat",
+        "category": "Health",
+        "category_bg_color": "#FF5733",
+        "card_bg_color": "#E5E5E5",
+        "text_button_bg_color": "#333333",
+        "description": "Achieve your fitness goals with this high-quality yoga mat.",
+        "price": 24.99
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/Vpz4Cw3/9308405-4150606.jpg",
+        "title": "Language Learning App",
+        "category": "Education",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#E5E5E5",
+        "text_button_bg_color": "#333333",
+        "description": "Master a new language with the help of our interactive language learning app.",
+        "price": 19.99
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/TBzrZgh/fashion-woman-with-clothes.jpg",
+        "title": "Women's Dress",
+        "category": "Clothing",
+        "category_bg_color": "#27ae60",
+        "card_bg_color": "#E5E5E5",
+        "text_button_bg_color": "#333333",
+        "description": "Dazzle in this elegant women's dress for special occasions.",
+        "price": 39.99
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/JdgjswH/bunch-various-fruits-big-wooden-bowl-high-quality-photo.jpg",
+        "title": "Organic Fruit Basket",
+        "category": "Food",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#E5E5E5",
+        "text_button_bg_color": "#333333",
+        "description": "Savor the goodness of organic fruits with this delightful fruit basket.",
+        "price": 29.99
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/0m8XbqX/33905928-indomay24.jpg",
+        "title": "Fitness Dumbbells Set",
+        "category": "Health",
+        "category_bg_color": "#FF5733",
+        "card_bg_color": "#E5E5E5",
+        "text_button_bg_color": "#333333",
+        "description": "Build strength and tone muscles with this dumbbells set.",
+        "price": 34.99
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/ZLYncR0/51f4-UIk1-Yz-L-SX498-BO1204203200.jpg",
+        "title": "Mathematics Workbook",
+        "category": "Education",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#E5E5E5",
+        "text_button_bg_color": "#333333",
+        "description": "Sharpen your math skills with this comprehensive workbook.",
+        "price": 9.99
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/cLWdHqf/c-ZAh2-EDz-Light-Blue-02.jpg",
+        "title": "Men's Denim Jeans",
+        "category": "Clothing",
+        "category_bg_color": "#27ae60",
+        "card_bg_color": "#E5E5E5",
+        "text_button_bg_color": "#333333",
+        "description": "Upgrade your casual wardrobe with these stylish men's denim jeans.",
+        "price": 29.99
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/KGnRBgz/71-Qf-JJn7nn-L.jpg",
+        "title": "Gourmet Coffee Blend",
+        "category": "Food",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#E5E5E5",
+        "text_button_bg_color": "#333333",
+        "description": "Indulge in the rich flavors of our gourmet coffee blend.",
+        "price": 12.99
+    }
+]

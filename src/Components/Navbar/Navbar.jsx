@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import logo from '../../../public/assets/Logo.png'
+import './Navbar.css'
 const Navbar = () => {
     return (
         <div className="max-w-7xl mx-auto">

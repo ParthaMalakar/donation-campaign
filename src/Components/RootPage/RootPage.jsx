@@ -1,7 +1,8 @@
+
 const RootPage = () => {
     return (
-        <div>
-            <h1>adddd</h1>
+        <div className="">
+            <h1 className="text-5xl">adddd</h1>
         </div>
     );
 };

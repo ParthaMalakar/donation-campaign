@@ -9,7 +9,7 @@ const Description = () => {
     const categorys = useLoaderData();
     const {id} = useParams();
     const category = categorys.find(category => category.id == id);
-    console.log(category); 
+    
     const style ={
         backgroundColor:`${category.text_button_bg_color}`
     }

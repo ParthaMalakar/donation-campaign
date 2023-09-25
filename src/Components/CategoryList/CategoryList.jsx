@@ -12,7 +12,7 @@ const CategoryList = ({allDonation ,display}) => {
         allDonation(categorys);
     }
     senddata();
-    console.log(display.length)
+   
     return (
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 max-w-7xl mx-auto mb-10 ">
             {display.length==0 ? categorys.map(category => <Category

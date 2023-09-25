@@ -1,5 +1,10 @@
+import { useState } from "react";
 
-const Banner = () => {
+const Banner = ({handleFilter}) => {
+    const [input, setInput] = useState('');
+const handlechange = (e)=>{
+    setInput(e.target.value);
+}
     return (
         <div>
             <div className="hero max-w-full mx-auto" style={{
@@ -24,8 +29,8 @@ const Banner = () => {
                     <div className="">
                         <h1 className="mb-5 text-5xl font-bold text-[#0B0B0B]">I Grow By Helping People In Need</h1>
                         <div className="mt-10">
-                            <input type="text" className="border-solid border-2 border-[#DEDEDE] bg-[#FFF] py-3 pl-3" name="text" placeholder="Search here...." />
-                            <button className="bg-[#FF444A] text-[#FFF] py-3 px-7">Search</button>
+                            <input onChange={handlechange} type="text" className="border-solid border-2 border-[#DEDEDE] bg-[#FFF] py-3 pl-3" name="text" placeholder="Search here...." />
+                            <button onClick={()=>handleFilter(input)} className="bg-[#FF444A] text-[#FFF] py-3 px-7">Search</button>
                         </div>
                     </div>
                 </div>

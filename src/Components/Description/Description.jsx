@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { saveDonationApplication } from "../Utility/Utility";
+import { getStoredDonation, saveDonationApplication } from "../Utility/Utility";
 
 
 const Description = () => {
@@ -14,7 +14,23 @@ const Description = () => {
         backgroundColor:`${category.text_button_bg_color}`
     }
     const [donations, setDonation] = useState([]);
-      
+    useEffect(() => {
+        const storedIds = getStoredDonation();
+        if (categorys.length > 0) {
+
+
+
+            const Applied = [];
+            for (const id of storedIds) {
+                const Donation = categorys.find(job => job.id === id);
+                if (Donation) {
+                    Applied.push(Donation)
+                }
+            }
+            setDonation(Applied);
+           
+        }
+    }, [categorys]) 
     const handleDonation= category => { 
         
         const donationExist = donations.find(existing=> existing.id == category.id)

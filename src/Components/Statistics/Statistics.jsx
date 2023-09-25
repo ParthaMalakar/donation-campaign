@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
 import { getStoredDonation } from '../Utility/Utility';
 const Statistics = () => {
@@ -18,7 +18,7 @@ const Statistics = () => {
         <div className=" text-center">
             <h2 className='mt-3'>Donation Statistics</h2>
            
-            <PieChart className='lg:ml-[550px] ' width={400} height={400}>
+            <PieChart className='md:ml-[200px] lg:ml-[550px] ' width={400} height={400}>
                 <Pie
                     dataKey="value"
                     data={data}

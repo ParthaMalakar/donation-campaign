@@ -17,7 +17,6 @@ const Donation = () => {
         if (Donations.length > 0) {
 
 
-            // const jobsApplied = jobs.filter(job => storedJobIds.includes(job.id));
 
             const Applied = [];
             for (const id of storedIds) {

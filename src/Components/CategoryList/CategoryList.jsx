@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import Category from "../Category/Category";
-
+import PropTypes from 'prop-types';
 const CategoryList = ({allDonation ,display}) => {
     const [categorys, setCategorys] = useState([]);
     useEffect(() => {
-        fetch('../../../public/donationData.json')
+        fetch('/donationData.json')
             .then(res => res.json())
             .then(data => setCategorys(data));
     }, [])
@@ -21,5 +21,9 @@ const CategoryList = ({allDonation ,display}) => {
         </div>
     );
 };
-
+CategoryList.propTypes = {
+    allDonation: PropTypes.func,
+    
+    display: PropTypes.object
+}
 export default CategoryList;

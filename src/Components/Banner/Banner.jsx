@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from 'prop-types';
 
 const Banner = ({handleFilter}) => {
     const [input, setInput] = useState('');
@@ -38,5 +39,7 @@ const handlechange = (e)=>{
         </div>
     );
 };
-
+Banner.propTypes = {
+    handleFilter: PropTypes.func
+}
 export default Banner;

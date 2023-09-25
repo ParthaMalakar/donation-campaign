@@ -1,5 +1,6 @@
 
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 const Category = ({ category }) => {
     const style ={
         backgroundColor:`${category.card_bg_color}`
@@ -16,8 +17,8 @@ const Category = ({ category }) => {
     }
     return (
         <div>
-
-            <div className="card  bg-base-100 shadow-xl" style={style}>
+       <Link to={`/description/${category.id}`}>
+       <div className="card  bg-base-100 shadow-xl" style={style}>
                 <figure><img className="w-[312px] h-[194px]" src={category.picture} alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 style={textColour} className="card-title font-medium text-base w-24 rounded-lg">
@@ -26,6 +27,7 @@ const Category = ({ category }) => {
                     <p style={text} className="font-semibold text-lg">{category.title}</p>
                 </div>
             </div>
+       </Link>
         </div>
     );
 };

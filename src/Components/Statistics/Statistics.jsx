@@ -16,9 +16,9 @@ const Statistics = () => {
 
     return (
         <div className=" text-center">
-            <h2>Donation Statistics</h2>
+            <h2 className='mt-3'>Donation Statistics</h2>
            
-            <PieChart className='ml-[550px] ' width={400} height={400}>
+            <PieChart className='lg:ml-[550px] ' width={400} height={400}>
                 <Pie
                     dataKey="value"
                     data={data}

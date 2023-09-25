@@ -34,7 +34,7 @@ const Donation = () => {
  
     return (
         <div>
-            <div className="grid grid-cols-2 gap-4 mt-8 max-w-7xl mx-auto mb-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8 max-w-7xl mx-auto mb-10">
             {appliedDonation.slice(0, dataLength).map(category => <DonationList
             key={category.id} category={category}></DonationList>)}
           

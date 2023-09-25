@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <div className="max-w-7xl mx-auto">
-            <div className="navbar bg-base-100">
+            <div className="pl-10 md:pl-0 md:navbar bg-base-100">
                 <div className="flex-1 mt-8">
                     <img className="h-[70px]" src={logo} alt="" />
                 </div>

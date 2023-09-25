@@ -21,8 +21,8 @@ const DonationList = ({ category }) => {
     return (
         <div>
             
-                <div style={style} className="card card-side bg-base-100 shadow-xl h-[200px] w-[600px]">
-                    <figure><img className="w-[210px] h-[194px]" src={category.picture} alt="Movie" /></figure>
+                <div style={style} className="card card-side bg-base-100 shadow-xl lg:h-[200px] lg:w-[600px]">
+                    <figure><img className="lg:w-[210px] lg:h-[194px]" src={category.picture} alt="Movie" /></figure>
                     <div className="card-body">
                     <h2 style={textColour} className="card-title font-medium text-base  rounded-lg">
                         {category.category}

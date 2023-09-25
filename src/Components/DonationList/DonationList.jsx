@@ -1,9 +1,12 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 const DonationList = ({ category }) => {
-
+   
     const style = {
         backgroundColor: `${category.card_bg_color}`
+    }
+    const textbg = {
+        backgroundColor: `${category.text_button_bg_color}`
     }
     const textColour = {
         color: `${category.text_button_bg_color}`,
@@ -26,8 +29,8 @@ const DonationList = ({ category }) => {
                     </h2>
                     <p  className="font-semibold text-xl">{category.title}</p>
                     <p style={text} className='text-sm'>$290.00</p>
-                        <div className="card-actions justify-end">
-                        <Link to={`/description/${category.id}`}> <button className="btn btn-primary">Details</button></Link>
+                        <div className="card-actions ">
+                        <Link to={`/description/${category.id}`}> <button style={textbg} className="btn px-2 py-2 text-white">View Details</button></Link>
                         </div>
                     </div>
                 </div>

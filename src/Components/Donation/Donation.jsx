@@ -39,7 +39,7 @@ const Donation = () => {
             key={category.id} category={category}></DonationList>)}
           
         </div>
-        <div style={style} className={dataLength === appliedDonation.length ? 'hidden' : ''}>
+        <div style={style} className={dataLength >= appliedDonation.length ? 'hidden' : ''}>
                 <button
                     onClick={() => setDataLength(appliedDonation.length)}
                     className="px-4 py-2 rounded-lg text-white bg-[#009444]">See All</button>
